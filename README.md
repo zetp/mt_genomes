@@ -5,6 +5,6 @@ Some of those were used to generate analyses published in Nature Communications 
 
 both scripts can be linked using command line so one can avoid writing big multifasta
 files onto disk:
-'''
+```
 RNSG.py -s=0.6 -l=10000 -r=100 | fastaRegexFinder_mod.py -f -
-'''
+```
