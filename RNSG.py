@@ -1,5 +1,8 @@
 #!/usr/bin/env python
 
+# Random nucleotide sequence generator
+# with given lenght, AT% and GC skew
+
 from sys import argv
 from sympy.solvers import solve
 from sympy import Symbol
