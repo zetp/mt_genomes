@@ -218,11 +218,11 @@ while True:
         break
 
 print "regex: %s" % (args.regex)
-print "analysed: %d" % (LP)
-print "found: %d" % (sum(LISTA))
+print "analysed sequences: %d" % (LP)
+print "regex found: %d" % (sum(LISTA))
 print "average: %f" % (sum(LISTA)/float(LP))
 print "G4 was found at least %d times in %d sequences out of %d total sequences" % (args.zzz, sum(i >= args.zzz for i in LISTA), len(LISTA))
-print "found G4:"
+print "found G4 (No per sequence):"
 print LISTA
 
 
