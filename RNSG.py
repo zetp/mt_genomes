@@ -105,7 +105,7 @@ while REP > 0:
 ### here is new and fast generator using numpy
 	_acid = ''.join(np.random.choice(_nucleotides, size=LEN, replace=True, p=_pro))
 
-    # herr we calculate AT%, GCskew i C/G ratio for each sequence and it will be adde to name of fasta sequence
+    # here we calculate AT%, GCskew i C/G ratio for each sequence and it will be added to name of fasta sequence
 	_prcntAT = float(((float(_acid.count("A"))+float(_acid.count("T")))/float(LEN))*100)
 	_gs = _acid.count("G")
 	_cs = _acid.count("C")
